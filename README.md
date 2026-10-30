@@ -1,6 +1,6 @@
 # Agent Monitor
 
-A small, self-hosted, read-only dashboard for your [OpenClaw](https://github.com/openclaw) agents. It shows which agents are working, what they did recently, how close you are to your usage limits, and raises alerts when something looks wrong. It runs on the machine that runs OpenClaw: no cloud service, no accounts, and no packages to install beyond Python itself.
+A small, self-hosted, read-only dashboard for your [OpenClaw](https://github.com/openclaw/openclaw) agents. It shows which agents are working, what they did recently, how close you are to your usage limits, and raises alerts when something looks wrong. It runs on the machine that runs OpenClaw: no cloud service, no accounts, and no packages to install beyond Python itself.
 
 Not affiliated with OpenClaw. Provided as-is, without warranty or guaranteed support.
 
