@@ -1,0 +1,328 @@
+[
+  {
+    "name": "missing status",
+    "expected": "working",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000
+    },
+    "previous": null
+  },
+  {
+    "name": "null status",
+    "expected": "working",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": null
+    },
+    "previous": null
+  },
+  {
+    "name": "age 599999",
+    "expected": "working",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 599999,
+      "updatedAt": 1800000000000
+    },
+    "previous": null
+  },
+  {
+    "name": "age 600000",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 600000,
+      "updatedAt": 1800000000000
+    },
+    "previous": null
+  },
+  {
+    "name": "age 600001",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 600001,
+      "updatedAt": 1800000000000
+    },
+    "previous": null
+  },
+  {
+    "name": "age -1",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": -1,
+      "updatedAt": 1800000000000
+    },
+    "previous": null
+  },
+  {
+    "name": "age None",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": null,
+      "updatedAt": 1800000000000
+    },
+    "previous": null
+  },
+  {
+    "name": "done recent",
+    "expected": "recent",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "done"
+    },
+    "previous": null
+  },
+  {
+    "name": "done old",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 600000,
+      "updatedAt": 1800000000000,
+      "status": "done"
+    },
+    "previous": null
+  },
+  {
+    "name": "failed recent",
+    "expected": "recent",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "failed"
+    },
+    "previous": null
+  },
+  {
+    "name": "failed old",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 600000,
+      "updatedAt": 1800000000000,
+      "status": "failed"
+    },
+    "previous": null
+  },
+  {
+    "name": "unknown explicit status",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running"
+    },
+    "previous": null
+  },
+  {
+    "name": "cron inactive",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "cron",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000
+    },
+    "previous": null
+  },
+  {
+    "name": "cron grows",
+    "expected": "working",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "cron",
+      "totalTokens": 11,
+      "ageMs": 1,
+      "updatedAt": 1800000000000
+    },
+    "previous": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "cron",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000
+    }
+  },
+  {
+    "name": "old interaction grows",
+    "expected": "working",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 11,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running",
+      "lastInteractionAt": 1
+    },
+    "previous": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running"
+    }
+  },
+  {
+    "name": "stale veto",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 11,
+      "ageMs": 600001,
+      "updatedAt": 1800000000000
+    },
+    "previous": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000
+    }
+  },
+  {
+    "name": "unchanged",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running"
+    },
+    "previous": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running"
+    }
+  },
+  {
+    "name": "reset",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 1,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running"
+    },
+    "previous": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running"
+    }
+  },
+  {
+    "name": "null previous tokens",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running"
+    },
+    "previous": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": null,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running"
+    }
+  },
+  {
+    "name": "null current tokens",
+    "expected": "idle",
+    "current": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": null,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running"
+    },
+    "previous": {
+      "sessionId": "synthetic-session",
+      "agentId": "a",
+      "kind": "direct",
+      "totalTokens": 10,
+      "ageMs": 1,
+      "updatedAt": 1800000000000,
+      "status": "running"
+    }
+  }
+]

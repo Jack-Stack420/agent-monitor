@@ -1,0 +1,22 @@
+{
+  "STORE_TASK_LABELS": true,
+  "port": 8787,
+  "stale_after_seconds": 180,
+  "thresholds": {
+    "warn": 70,
+    "alarm": 80,
+    "critical": 90
+  },
+  "credit_alert_level": 5,
+  "agents": {},
+  "bind_address": "127.0.0.1",
+  "allowed_hosts": [
+    "127.0.0.1:8787",
+    "localhost:8787"
+  ],
+  "credits_warn": 100,
+  "credits_critical": 25,
+  "agent_stale_minutes": null,
+  "listeners": null,
+  "proxy_allowed_hosts": null
+}

@@ -1,0 +1,1 @@
+* * * * * /usr/bin/flock -n /home/youruser/agent-monitor/data/cron.lock /usr/bin/env PATH=/usr/bin:/bin /usr/bin/python3 /home/youruser/agent-monitor/collector.py --openclaw /home/youruser/.openclaw/tmp/agent-cli/openclaw >/dev/null 2>&1 # monitor-collector-v1.1

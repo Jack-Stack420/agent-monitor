@@ -1,0 +1,17 @@
+[
+  {
+    "id": "main",
+    "name": "Agent One",
+    "model": null
+  },
+  {
+    "id": "membot",
+    "name": "Agent Two",
+    "model": "openai/gpt-6-luna"
+  },
+  {
+    "id": "auditor",
+    "name": "Agent Three",
+    "model": "google/gemini-3.5-flash"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "gateway": {
+    "reachable": true,
+    "connectLatencyMs": 282
+  },
+  "gatewayService": {
+    "runtime": {
+      "state": "active"
+    }
+  },
+  "processMemory": {
+    "rssBytes": 2375725056
+  },
+  "eventLoop": {
+    "cpuBreakdown": {
+      "hostUtilization": 0.363
+    }
+  },
+  "usage": {
+    "providers": [
+      {
+        "provider": "openai",
+        "plan": "plus",
+        "windows": [
+          {
+            "label": "5h",
+            "usedPercent": 36,
+            "resetAt": 1793188316000
+          },
+          {
+            "label": "Week",
+            "usedPercent": 6,
+            "resetAt": 1793775116000
+          }
+        ],
+        "billing": [
+          {
+            "type": "balance",
+            "amount": 233.2141625,
+            "unit": "credits"
+          }
+        ]
+      }
+    ]
+  }
+}

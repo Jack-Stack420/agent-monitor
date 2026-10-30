@@ -1,0 +1,31 @@
+{
+  "jobs": [
+    {
+      "name": "heartbeat-main",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 260008
+      },
+      "state": {
+        "nextRunAtMs": 1793173929906,
+        "lastRunAtMs": 1793172129906,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok"
+      }
+    },
+    {
+      "name": "Memory Dreaming Promotion",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *"
+      },
+      "state": {
+        "nextRunAtMs": 1793257200000,
+        "lastRunAtMs": 1793170800028,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok"
+      }
+    }
+  ]
+}

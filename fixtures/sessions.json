@@ -1,0 +1,257 @@
+{
+  "sessions": [
+    {
+      "sessionId": "76de9acb-a075-4c40-bc1b-a212e3840501",
+      "agentId": "main",
+      "kind": "direct",
+      "status": null,
+      "model": "gpt-6.1-sol",
+      "modelProvider": "openai",
+      "totalTokens": 21677,
+      "lastInteractionAt": 1793171074923,
+      "sessionStartedAt": 1792986345468
+    },
+    {
+      "sessionId": "057d1959-a610-4dc4-994c-6f8367b8b44a",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6.1-sol",
+      "modelProvider": "openai",
+      "totalTokens": 97664,
+      "lastInteractionAt": 1793171074657,
+      "sessionStartedAt": 1793170423520
+    },
+    {
+      "sessionId": "3d2c24db-1987-41ee-a4da-de95ffdd69e9",
+      "agentId": "main",
+      "kind": "cron",
+      "status": null,
+      "model": "gpt-6.1-sol",
+      "modelProvider": "openai",
+      "totalTokens": null,
+      "lastInteractionAt": null,
+      "sessionStartedAt": null
+    },
+    {
+      "sessionId": "149f505f-8a36-4eb9-b13e-12779fe3e08f",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6.1-sol",
+      "modelProvider": "openai",
+      "totalTokens": 33504,
+      "lastInteractionAt": 1793170689046,
+      "sessionStartedAt": 1793170434523
+    },
+    {
+      "sessionId": "c29e10c7-0c1f-4bbc-9d94-e53c6166f571",
+      "agentId": "main",
+      "kind": "direct",
+      "status": "done",
+      "model": "gpt-6.1-sol",
+      "modelProvider": "openai",
+      "totalTokens": 24251,
+      "lastInteractionAt": 1793080774035,
+      "sessionStartedAt": 1793074846773
+    },
+    {
+      "sessionId": "039e32b4-660b-4f33-8941-a1e9a58f2222",
+      "agentId": "main",
+      "kind": "direct",
+      "status": "done",
+      "model": "gpt-6.1-sol",
+      "modelProvider": "openai",
+      "totalTokens": 113391,
+      "lastInteractionAt": 1793071781997,
+      "sessionStartedAt": 1793052360538
+    },
+    {
+      "sessionId": "1100d927-6875-4167-94ad-10835e18d67b",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6.1-sol",
+      "modelProvider": "openai",
+      "totalTokens": 64038,
+      "lastInteractionAt": 1793071006544,
+      "sessionStartedAt": 1793070699203
+    },
+    {
+      "sessionId": "6128f4fe-1106-42ef-acb9-18cf81455640",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6.1-sol",
+      "modelProvider": "openai",
+      "totalTokens": 46587,
+      "lastInteractionAt": 1793070742738,
+      "sessionStartedAt": 1793070476250
+    },
+    {
+      "sessionId": "e6de22e1-f31f-4def-832f-c4af658f27cb",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": 50654,
+      "lastInteractionAt": 1793033590772,
+      "sessionStartedAt": 1793033279778
+    },
+    {
+      "sessionId": "edebb433-a105-4a31-86df-e0b4b1651a2a",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": 80326,
+      "lastInteractionAt": 1793033148449,
+      "sessionStartedAt": 1793032900247
+    },
+    {
+      "sessionId": "76791d17-f6ee-43d5-9531-4aabff7c88ce",
+      "agentId": "main",
+      "kind": "direct",
+      "status": "done",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": 46917,
+      "lastInteractionAt": 1793013165976,
+      "sessionStartedAt": 1793011493630
+    },
+    {
+      "sessionId": "b212d528-b2bf-4e27-9e06-d0862b4b5048",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": 20160,
+      "lastInteractionAt": 1793011976598,
+      "sessionStartedAt": 1793011912265
+    },
+    {
+      "sessionId": "a479648f-d7eb-4fa6-8515-428e9d60f7ae",
+      "agentId": "main",
+      "kind": "direct",
+      "status": "failed",
+      "model": "gemini-2.5-flash-lite",
+      "modelProvider": "google",
+      "totalTokens": null,
+      "lastInteractionAt": 1792999034001,
+      "sessionStartedAt": 1792999033725
+    },
+    {
+      "sessionId": "553ffdd0-835e-4dd8-9b6b-7ea98419823e",
+      "agentId": "main",
+      "kind": "direct",
+      "status": "failed",
+      "model": "gemini-2.5-flash-lite",
+      "modelProvider": "google",
+      "totalTokens": null,
+      "lastInteractionAt": 1792998476714,
+      "sessionStartedAt": 1792998426531
+    },
+    {
+      "sessionId": "a358857d-ee10-44f2-83b3-02c22e9ef292",
+      "agentId": "main",
+      "kind": "direct",
+      "status": "done",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": 25296,
+      "lastInteractionAt": 1793009080056,
+      "sessionStartedAt": 1793006487715
+    },
+    {
+      "sessionId": "61bc81fc-4175-47bf-8ee6-d170f6259237",
+      "agentId": "main",
+      "kind": "direct",
+      "status": "failed",
+      "model": null,
+      "modelProvider": "openai",
+      "totalTokens": null,
+      "lastInteractionAt": 1793005952778,
+      "sessionStartedAt": 1793005952234
+    },
+    {
+      "sessionId": "2aa3ab83-c6d3-4081-a5d7-7d3664fcce11",
+      "agentId": "main",
+      "kind": "direct",
+      "status": "done",
+      "model": "gemini-3.5-flash",
+      "modelProvider": "google",
+      "totalTokens": 14225,
+      "lastInteractionAt": 1792999373783,
+      "sessionStartedAt": 1792999208688
+    },
+    {
+      "sessionId": "227888aa-e759-4db6-86e3-7b113b9ee2fb",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": 55145,
+      "lastInteractionAt": 1792996339848,
+      "sessionStartedAt": 1792995595885
+    },
+    {
+      "sessionId": "88a5495c-5085-441f-9c40-1ac6ab9aa8df",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": 32023,
+      "lastInteractionAt": 1792991303159,
+      "sessionStartedAt": 1792991249394
+    },
+    {
+      "sessionId": "ea23eeb1-f78f-483e-b466-d1bf71925062",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": 46140,
+      "lastInteractionAt": 1792991236960,
+      "sessionStartedAt": 1792990944955
+    },
+    {
+      "sessionId": "16f6a75e-1ef3-4ed6-b020-89deaa7da340",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "failed",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": null,
+      "lastInteractionAt": 1792990923922,
+      "sessionStartedAt": 1792990894531
+    },
+    {
+      "sessionId": "7545bc67-d2d1-4c22-b358-220ada32c378",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": 22773,
+      "lastInteractionAt": 1792988955060,
+      "sessionStartedAt": 1792988905104
+    },
+    {
+      "sessionId": "2e8b3c84-05a5-4a65-af9d-7594acc7538e",
+      "agentId": "main",
+      "kind": "spawn-child",
+      "status": "done",
+      "model": "gpt-6-astra",
+      "modelProvider": "openai",
+      "totalTokens": 33057,
+      "lastInteractionAt": 1792988646364,
+      "sessionStartedAt": 1792988483717
+    }
+  ]
+}
