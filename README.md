@@ -56,7 +56,7 @@ These steps assume the folder lives at `~/agent-monitor`. If you put it elsewher
         systemctl --user daemon-reload
         systemctl --user enable --now agent-monitor-api.service
 
-7. Open http://127.0.0.1:8787 in a browser on the same machine and log in. Give the collector a minute or two to gather its first data; until then you may see a "collector stale" tag.
+7. Open http://127.0.0.1:8787/login in a browser on the same machine and log in. Give the collector a minute or two to gather its first data; until then you may see a "collector stale" tag.
 
 ## Viewing it from another device
 
